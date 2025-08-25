@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganesh P - Senior ML Engineer Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/compromise@14.8.0/builds/compromise.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-gray-100">
+    <canvas id="neural-network-bg" class="fixed inset-0 z-0 pointer-events-none"></canvas>
+    <header class="bg-gradient-to-r from-teal-800 to-purple-900 text-white sticky top-0 shadow-lg z-10">
+    <nav class="container mx-auto p-4 flex justify-between items-center">
+        <div>
+            <h1 class="text-4xl md:text-5xl font-extrabold font-orbitron bg-gradient-to-r from-teal-400 via-blue-500 to-purple-600 text-white tracking-wide drop-shadow-lg mb-2">
+                Ganesh P
+            </h1>
+            <span class="block text-lg text-blue-200 font-medium tracking-widest mb-2">Senior Machine Learning Engineer</span>
+        </div>
+        
+            <ul class="flex space-x-6">
+                <li><a href="#about" class="hover:text-teal-300">About</a></li>
+                <li><a href="#experience" class="hover:text-teal-300">Experience</a></li>
+                <li><a href="#projects" class="hover:text-teal-300">Projects</a></li>
+                <li><a href="#skills" class="hover:text-teal-300">Skills</a></li>
+                <li><a href="#certifications" class="hover:text-teal-300">Certifications</a></li>
+                <li><a href="#contact" class="hover:text-teal-300">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="contact" class="flex justify-start items-center py-8 bg-gray-900 bg-opacity-90">
+  <div class="bg-gradient-to-r from-teal-700 to-blue-800 rounded-xl shadow-xl p-8 flex flex-col items-start max-w-md w-full ml-0 lg:ml-8">
+    <h2 class="text-2xl font-bold text-blue-700 mb-4 font-orbitron tracking-wide text-left">Get in Touch</h2>
+    <div class="flex flex-col gap-4 text-lg w-full text-left">
+      <a href="mailto:ganeshpodile369@gmail.com" class="flex items-center gap-3 text-blue-100 hover:text-teal-300 transition-colors">
+        <svg class="w-5 h-5 text-teal-300" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path d="M16 12H8m8 0a8 8 0 11-16 0 8 8 0 0116 0z" />
+        </svg>
+        <span class="font-bold">ganeshpodile369@gmail.com</span>
+      </a>
+      <a href="tel:+19402684375" class="flex items-center gap-3 text-blue-100 hover:text-teal-300 transition-colors">
+        <svg class="w-5 h-5 text-teal-300" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path d="M3 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H5a2 2 0 01-2-2V5zm0 8a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H5a2 2 0 01-2-2v-2zm8-8a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zm0 8a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
+        </svg>
+        <span class="font-bold">+1 940-268-4375</span>
+      </a>
+      <a href="https://www.linkedin.com/in/saiganesh-podile-483879222" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 text-blue-100 hover:text-teal-300 transition-colors">
+        <svg class="w-5 h-5 text-teal-300" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path d="M16 8a6 6 0 01-12 0C4 5.238 6.238 3 9 3s5 2.238 5 5z" />
+        </svg>
+        <span class="font-bold">My LinkedIn Profile</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+    <section id="about" class="py-12 bg-gray-800 bg-opacity-80 relative z-10 animate-fade-in">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-blue-700 mb-4 font-orbitron">About Me</h2>
+            <p class="text-lg">Senior Machine Learning Engineer with over 8 years of IT experience delivering AI/ML-driven solutions in healthcare, telecom, banking, and e-commerce. Expert in NLP, predictive modeling, and scalable data pipelines using AWS, Azure, and GCP. Passionate about leveraging advanced ML techniques to solve real-world business challenges.</p>
+        </div>
+    </section>
+
+    <section id="experience" class="py-12 bg-gray-900 bg-opacity-80 relative z-10 animate-fade-in">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-blue-700 mb-4 font-orbitron">Professional Experience</h2>
+            <div class="mb-8">
+                <h3 class="text-xl font-semibold"><span class="font-bold">Centene Corporation</span>, Senior Machine Learning Engineer, Dallas, TX</h3>
+                <p class="text-gray-400">August 2023 – Present</p>
+                <ul class="list-disc pl-6 mt-2">
+                    <li>Led HIPAA-compliant AI pipeline with AWS HealthScribe, reducing clinical note summarization time by 40%.</li>
+                    <li>Fine-tuned BioBERT and ClinicalBERT on MIMIC-III and i2b2 datasets for NLP tasks.</li>
+                    <li>Built predictive models with LightGBM, improving high-risk patient detection accuracy from 70% to 84%.</li>
+                    <li>Developed ETL pipelines with AWS Glue and PySpark for large-scale EHR and claims data.</li>
+                </ul>
+            </div>
+            <div class="mb-8">
+                <h3 class="text-xl font-semibold"><span class="font-bold">AT&T</span>, ML Engineer, Dallas, TX</h3>
+                <p class="text-gray-400">June 2021 – May 2023</p>
+                <ul class="list-disc pl-6 mt-2">
+                    <li>Built churn prediction models with XGBoost, improving accuracy by 12% (78% to 87%).</li>
+                    <li>Developed NLP pipelines with Azure Cognitive Services, reducing agent documentation time by 18%.</li>
+                    <li>Deployed models on Azure Kubernetes Service with MLflow for lifecycle management.</li>
+                </ul>
+            </div>
+            <div class="mb-8">
+                <h3 class="text-xl font-semibold"><span class="font-bold">Egen</span>, Data Engineer, Hyderabad, INDIA</h3>
+                <p class="text-gray-400">April 2019 – May 2022</p>
+                <ul class="list-disc pl-6 mt-2">
+                    <li>Built real-time fraud detection pipelines with Apache Kafka and Spark, achieving 90% precision.</li>
+                    <li>Reduced fraud losses by 28% ($1.2M to $864K annually) with automated alerting systems.</li>
+                    <li>Visualized fraud patterns using Tableau and Matplotlib for stakeholder reports.</li>
+                </ul>
+            </div>
+            <div class="mb-8">
+                <h3 class="text-xl font-semibold"><span class="font-bold">Movate</span>, Python Developer, Chennai, INDIA</h3>
+                <p class="text-gray-400">May 2017 – February 2019</p>
+                <ul class="list-disc pl-6 mt-2">
+                    <li>Developed Flask APIs for product recommendations, improving click-through rate by 22%.</li>
+                    <li>Built ETL pipelines with Pandas and MySQL, increasing average order value by 15%.</li>
+                    <li>Created dashboards in Tableau and QlikView to track engagement trends.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-12 bg-gray-800 bg-opacity-80 relative z-10 animate-fade-in">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-blue-700 mb-6 font-orbitron">Academic Projects</h2>
+            <div class="mb-8">
+                <h3 class="text-xl font-semibold">Retail Demand Forecasting and Analytics</h3>
+                <p class="text-gray-400">Developed a cloud-based system to forecast retail product demand and visualize sales trends using modern data engineering and ML tools.</p>
+                <ul class="list-disc pl-6 mt-2">
+                    <li>Used BigQuery and LightGBM for predictive modeling.</li>
+                    <li>Created interactive dashboards with Power BI for sales insights.</li>
+                    <li>Managed infrastructure with Terraform on GCP.</li>
+                </ul>
+            </div>
+            <div class="mb-8">
+                <h3 class="text-xl font-semibold">Scalable Stock Data Ingestion and Analysis System</h3>
+                <p class="text-gray-400">Developed a cloud-based system to ingest, store, and analyse real-time and historical stock market data, enabling automated trend analysis and volatility tracking. The system integrated public APIs, scalable AWS data pipelines, and interactive dashboards to support financial insights and analytics.</p>
+                <ul class="list-disc pl-6 mt-2">
+                    <li>Built ETL pipelines with AWS Glue and Step Functions.</li>
+                    <li>Stored data in PostgreSQL on Amazon RDS.</li>
+                    <li>Visualized trends with Power BI.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-16 bg-gray-900 bg-opacity-80 relative z-10 animate-fade-in">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-blue-700 mb-6 font-orbitron">Technical Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold mb-4">Skill Proficiency Chart</h3>
+                    <canvas id="skillProficiencyChart" class="w-full h-60 bg-gray-700 rounded"></canvas>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold mb-4">Model Accuracy Chart</h3>
+                    <canvas id="modelAccuracyChart" class="w-full h-60 bg-gray-700 rounded"></canvas>
+                </div>
+            </div>
+            <div class="mt-8 bg-gray-800 p-6 rounded-lg shadow-lg">
+                <h3 class="text-xl font-semibold mb-4">Sentiment Analysis Demo</h3>
+                <input type="text" id="sentimentInput" class="border p-2 w-full rounded bg-gray-600 text-white placeholder-gray-400 focus:ring-2 focus:ring-teal-400 mb-2" placeholder="Type a sentence to analyze sentiment...">
+                <button onclick="analyzeSentiment()" class="px-6 py-2 rounded-full bg-blue-600 text-white font-semibold shadow-md mt-2 transition-all duration-200 hover:bg-blue-700 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300 focus:ring-offset-2">Analyze</button>
+                <p id="sentimentResult" class="mt-2"></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="py-12 bg-gray-800 bg-opacity-80 relative z-10 animate-fade-in">
+     <div class="flex flex-wrap justify-center items-center gap-8">
+       <img src="images/aws-certified-machine-learning-specialty.png" alt="AWS ML Specialty" class="h-28 w-28 object-contain rounded shadow-md p-2 bg-transparent">
+       <img src="images/aws-certified-solutions-architect-associate.png" alt="AWS Solutions Architect" class="h-28 w-28 object-contain rounded shadow-md p-2 bg-transparent">
+       <img src="images/Azure AI.png" alt="Azure AI Engineer" class="h-28  object-contain rounded shadow-md p-2 bg-transparent">
+       <img src="images/efbb791a-4702-4701-be3a-71568ffd01f6.png" alt="Databricks GenAI" class="h-28 w-28 object-contain rounded shadow-md p-2 bg-transparent">
+    </div>
+   
+    <footer class="bg-gradient-to-r from-teal-800 to-purple-900 text-white text-center p-4 relative z-10">
+        <p>&copy; 2025 Ganesh P. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
